@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/',
+    base: '/my-blog/',
     title: "召唤师峡谷",
     head: [
         ['link', {
