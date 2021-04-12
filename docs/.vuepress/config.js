@@ -4,7 +4,7 @@ module.exports = {
     head: [
         ['link', {
             rel: 'icon',
-            href: './public/01辉夜大小姐.jpg'
+            href: './huiye01.jpg'
         }]
     ],
     themeConfig: {
