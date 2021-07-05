@@ -1,14 +1,15 @@
 module.exports = {
-    base: '.',
-    title: "召唤师峡谷",
+    base: '/myBlog/',
+    title: "召唤师峡谷",    
     head: [
         ['link', {
             rel: 'icon',
-            href: './huiye01.jpg'
+            href: './yasuo.jpg'
         }]
     ],
     themeConfig: {
-        nav: [{
+        nav: [
+            {
                 text: '分类',
                 items: [{
                         text: 'Html',
@@ -37,15 +38,19 @@ module.exports = {
                 ]
             },
             {
+                text: '疑难杂惑',
+                link: '/problem/01-problem/'
+            },
+            {
                 text: 'Gitee',
-                link: 'https://gitee.com/'
+                link: 'https://gitee.com/Artwinter/myBlog'
             }
         ],
         sidebar: {
             '/Html/': [{
                 title: 'HTML入门',
                 collapsable: true,
-                sidebarDepth: 1,
+                // sidebarDepth: 1,
                 children: [
                     '/Html/01',
                 ]
@@ -53,7 +58,7 @@ module.exports = {
             '/Css/': [{
                 title: 'CSS入门',
                 collapsable: true,
-                sidebarDepth: 1,
+                // sidebarDepth: 1,
                 children: [
                     '/Css/01',
                 ]
@@ -61,7 +66,7 @@ module.exports = {
             '/JavaScript/': [{
                 title: 'JavaScript入门',
                 collapsable: true,
-                sidebarDepth: 1,
+                // sidebarDepth: 1,
                 children: [
                     '/JavaScript/01',
                 ]
@@ -69,7 +74,7 @@ module.exports = {
             '/Vue/': [{
                 title: 'Vue入门',
                 collapsable: true,
-                sidebarDepth: 1,
+                // sidebarDepth: 1,
                 children: [
                     '/Vue/01',
                 ]
@@ -77,7 +82,7 @@ module.exports = {
             '/Vue3/': [{
                 title: 'Vue3入门',
                 collapsable: true,
-                sidebarDepth: 1,
+                // sidebarDepth: 1,
                 children: [
                     '/Vue3/01',
                 ]
@@ -85,12 +90,19 @@ module.exports = {
             '/TypeScript/': [{
                 title: 'TypeScript入门',
                 collapsable: true,
-                sidebarDepth: 1,
+                // sidebarDepth: 1,
                 children: [
                     '/TypeScript/01',
                 ]
             }],
+            '/problem/': [
+                {
+                    title: '问题整理',
+                    collapsable: true,
+                    children: ['01-problem']
+                }
+            ]
         },
-        sidebarDepth: 2
+        // sidebarDepth: 2
     }
 }
