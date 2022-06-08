@@ -13,5 +13,5 @@ cd docs/.vuepress/dist
 git init
 git add .
 git commit -m 'XD-blog'
-git remote add origin git@gitee.com:Artwinter/myBlog.git
+git remote add origin git@github.com:Artwinter/Line_blog.git
 git push -f origin master
