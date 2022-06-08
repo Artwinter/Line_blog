@@ -1,6 +1,6 @@
 ## 01-element-可编辑表格
 
-#### 描述:  web管理平台,展示表格的修改(element-table)如图:![image-20210310151508757](https://gitee.com/Artwinter/pic-go-image-upload/raw/master/img/image-20210310151508757.png)
+#### 描述:  web管理平台,展示表格的修改(element-table)如图:![image-20210310151508757](https://raw.githubusercontent.com/Artwinter/uploadImg/master/picgoImg/image-20210310151508757.png)
 
 #### 解决: 
 
@@ -174,11 +174,11 @@
 
 #### 描述:
 
-- ![image-20210310161217820](https://gitee.com/Artwinter/pic-go-image-upload/raw/master/img/image-20210310161217820.png)
+- ![image-20210310161217820](https://raw.githubusercontent.com/Artwinter/uploadImg/master/picgoImg/image-20210310161217820.png)
 
 #### 解决:
 
-- 代码：详情请看  [el-table-去除表头多选框](https://www.cnblogs.com/jxfd/p/13749128.html)![image-20210310161255925](https://gitee.com/Artwinter/pic-go-image-upload/raw/master/img/image-20210310161255925.png)
+- 代码：详情请看  [el-table-去除表头多选框](https://www.cnblogs.com/jxfd/p/13749128.html)![image-20210310161255925](https://raw.githubusercontent.com/Artwinter/uploadImg/master/picgoImg/image-20210310161255925.png)
 
 
 
@@ -401,11 +401,11 @@
 
 - 我们在写项目的时候,尤其是移动端项目,在首屏渲染的时候总是会出现短暂白屏
 - 我们使用了 骨架屏来解决首屏渲染时出现的短暂白屏现象
-- 如图![image-20210311095522209](https://gitee.com/Artwinter/pic-go-image-upload/raw/master/img/image-20210311095522209.png)
+- 如图![image-20210311095522209](https://raw.githubusercontent.com/Artwinter/uploadImg/master/picgoImg/image-20210311095522209.png)
 
 #### 解决:
 
-- 插件下载地址 请点击 [此处](https://gitee.com/mobl/page-skeleton-plugin/blob/master/app.zip)
+- 插件下载地址 请点击 [此处](https://raw.githubusercontent.com/mobl/page-skeleton-plugin/blob/master/app.zip)
 
 
 
@@ -472,13 +472,13 @@
 
 #### 描述:
 
-- ![image-20210317101547061](https://gitee.com/Artwinter/pic-go-image-upload/raw/master/img/image-20210317101547061.png)
+- ![image-20210317101547061](https://raw.githubusercontent.com/Artwinter/uploadImg/master/picgoImg/image-20210317101547061.png)
 - 例如此页面点击查看文件
 - 两种情况:  打开的是 `html` 文件   ||    打开文件   `doc xls ppt pdf docx xlsxx`等
 
 #### 解决:
 
-- ![image-20210317101753947](https://gitee.com/Artwinter/pic-go-image-upload/raw/master/img/image-20210317101753947.png)
+- ![image-20210317101753947](https://raw.githubusercontent.com/Artwinter/uploadImg/master/picgoImg/image-20210317101753947.png)
 
 
 
@@ -568,7 +568,7 @@
 - 当我们在某些情况下,我们的 `V-model`需要绑定一个判断式
 - `!` 但是 `V-model` 是不允许绑定 判断式的 所以我们 可以用 `computed`计算属性来解决这个问题
 - 注:  `V-model` 不可以绑定 函数（带括号的）、判断式。
-- 但是如果用 `computed`计算属性的话,又有一个新的问题出现了,那就是会影响`Vue`关于`V-model`的双向绑定问题会报出如下错误![image-20210331172047813](https://gitee.com/Artwinter/pic-go-image-upload/raw/master/img/image-20210331172047813.png)
+- 但是如果用 `computed`计算属性的话,又有一个新的问题出现了,那就是会影响`Vue`关于`V-model`的双向绑定问题会报出如下错误![image-20210331172047813](https://raw.githubusercontent.com/Artwinter/uploadImg/master/picgoImg/image-20210331172047813.png)
 
 #### 解决:
 
@@ -614,7 +614,7 @@
 - 通过一番面向百度编程,搜索查看了很多文档后发现,好像`replace`确实有这种隐形`bug`
 - 搜阅的文档博客里,提到可以使用`js`原生的`history`的`api`来手动去跳转和无痕跳转
 - 这里我的解决办法,也很神奇离谱,我从`b`到`c`页面也是用了`replace`,然后在`c`页面调用了`history`的原生`api`,又储存了从`b`跳转到`c`的历史记录,然后判断历史记录的长度来决定是否再添加一次历史记录然后在手动返回一次
-- ![image-20210705114529049](https://gitee.com/Artwinter/pic-go-image-upload/raw/master/img/image-20210705114529049.png)
+- ![image-20210705114529049](https://raw.githubusercontent.com/Artwinter/uploadImg/master/picgoImg/image-20210705114529049.png)
 
 
 
@@ -643,7 +643,7 @@
 
 - `MuiPlayer`的自动播放问题
 - 因为浏览器策略限制,现移动端大多数无法 有声自动播放,但是可以静音自动播放,而`MuiPlayer`在刚开始配置时发现通过`videoAttribute`给`video`标签设置`muted`来实现自动播放竟然无效,后面学习沟通发现需要在初始化时配置`MuiPlayer`的`volume`为`0`然后`autoplay`设置为`true`这样就可以静音自动播放了
-- ![image-20210705144833340](https://gitee.com/Artwinter/pic-go-image-upload/raw/master/img/image-20210705144833340.png)
+- ![image-20210705144833340](https://raw.githubusercontent.com/Artwinter/uploadImg/master/picgoImg/image-20210705144833340.png)
 
 
 
@@ -758,3 +758,247 @@
 
 
 
+## 30-基于`URLSearchParams`或`URL`获取queryString的值
+
+#### 描述
+
+- 常用的方式是使用正则或者`split`方法，其实不然，`URLSearchParams`和`URL`都能很好的实现功能。
+
+#### 示例
+
+- ```js
+  // 测试地址： /index.html?pid=10
+  const urlSP = new URLSearchParams(location.search);
+  function getQueryString(key){
+      return urlSP.get(key)
+  }
+  // 10
+  const urlObj = new URL(location.href);
+  function getQueryString(key){
+      return urlObj.searchParams.get(key)
+  }
+  // 10
+  // 作者：云的世界
+  // 链接：https://juejin.cn/post/6987166546502090788
+  // 来源：掘金
+  ```
+
+  
+
+
+
+## 31-scrollTo方法的平滑滚动
+
+#### 描述
+
+- 涨知识: 指定滚动条位置时可以使用此方法指定滚动条位置
+
+#### 示例
+
+- 使用方法示例:
+
+  - 两种方法
+
+  - 一种是直接  设置 x,y轴的位置
+
+  - 第二种是  传入一个对象,对象有三个参数 top,left,behavior
+
+    - top: y 轴
+    - left: x 轴
+    - behavior: 滚动行为(过渡方式)    
+      -   'smooth' (平滑滚动)
+      -   'instant'  (瞬间滚动)
+      -   默认值: auto  效果等同于 瞬间滚动
+
+  - 代码示例:
+
+    - ```js
+      1.scrollTo(x,y)   //指定滚动到x轴和y轴的位置
+      2.scrollTo(options)  //options有三个参数，（left,top,behavior ）,
+      top 等同于  y-coord
+      left 等同于  x-coord
+      behavior  类型String,表示滚动行为,支持参数 smooth(平滑滚动),instant(瞬间滚动),默认值auto,实测效果等同于instant
+         window.scrollTo({
+                          top: 0,
+                          behavior: "smooth"
+                      });
+      ```
+
+      
+
+
+
+
+## 32- `rem`的计算
+
+#### 描述
+
+- 项目中要使用`rem`来做多屏幕适配
+
+#### 示例
+
+- ```js
+  function rem() { // 监控页面尺寸变化重新计算REM
+    document.documentElement.style.fontSize =
+      document.documentElement.clientWidth / 75 + 'px'
+  }
+  rem()
+  window.onresize = rem
+  ```
+
+  
+
+## 33.`VsCode`的代码片段折叠
+
+#### 描述
+
+- 在使用 VsCode 进行开发时,经常会用到注释功能,而有一些注释代码,在注释掉后无法折叠,非常占用我们的开发视野,此时我们就可以用`#region``#endregion`,这两个关键字来对需要折叠的部分代码进行折叠
+
+#### 示例
+
+- ```js
+  #region
+    const xx = 'xx'
+    const yy = () = > {}
+  #endregion
+  ```
+
+- 此时被`#region``#endregion`包裹的代码就可以进行折叠的操作,来为我们的开发视野省出空间
+
+
+
+## 34.console.log 报警
+
+#### 描述
+
+- 在学习 `vue3+ts+vite` 时,根据掘金上的 [一篇文章 ](https://juejin.cn/post/7036745610954801166#heading-26)去照着敲的过程中使用了`console.log`,发现`console.log`一直被标黄也就是`warn`
+
+#### 解决
+
+- 原因后面找到是因为,照着抄了文章中的 `eslint`规则,而在规则中有这么一句话
+
+  - ```json
+    // 禁止出现console
+    "no-console": "warn", // off 关闭检查 console
+    ```
+
+- 修改这句话就可以了,如果以后在遇到类似的代码规则检查报错可以去项目根目录下找到`.eslintrc.js`修改对应的规则
+
+
+
+## 35.`5W1H` 分析法
+
+#### 描述
+
+1. 对象 (`what`)  -- 什么事情
+2. 场所 (`where`) -- 什么地点
+3. 时间 (`when`) -- 什么时间
+4. 人员 (`who`) -- 什么人
+5. 为什么 (`why`) -- 为什么 原因
+6. 方式 (`how`) -- 如何 怎样
+
+
+
+## 36.`Axios`中的`transformRequest`
+
+#### 描述
+
+- `transformRequest` 允许在向服务器发送前，修改请求数据
+
+- 只能用在 'PUT', 'POST' 和 'PATCH' 这几个请求方法
+
+- 后面数组中的函数必须返回一个字符串，或 ArrayBuffer，或 Stream
+
+- ```js
+  transformRequest: [function (data, headers) {
+      // 对 data 进行任意转换处理
+      return data;
+    }],
+  ```
+
+- 参数 `urlencoded`编码
+
+- ```js
+  // 对参数进行 urlencoded 编码
+  axios.defaults.transformRequest = [
+    (data) => {
+      let ret = "";
+      for (const it in data) {
+        ret += encodeURIComponent(it) + "=" + encodeURIComponent(data[it]) + "&";
+      }
+      return ret;
+    },
+  ];
+  ```
+
+
+
+
+## 37.`element-ui`内置方法传入私有(自定义)参数
+
+#### 描述
+
+- 在使用element的上传组件时在以下几个钩子中传递其他参数
+
+- ![img](https://raw.githubusercontent.com/Artwinter/uploadImg/master/picgoImg/1009106-20190917202213899-780772632.png)
+
+- 图中是文件上传时的几个钩子，参数为文件或文件列表或者其他参数，但是现在我想在原有参数上传递其他参数。比如我想在on-success的钩子中传递一个自定义参数i，原本是这样写的：
+
+  - ```js
+    :on-success=”handleSuccess（i）” //handleSuccess是一个方法
+    ```
+
+  - 但是发现这样写取不到自身原来的参数
+
+#### 解决
+
+- 后来在网上找到了一个比较好的方法
+
+- ```js
+  :on-change="(file,fileList)=>handleChange(file,fileList,index)"
+  ```
+
+- 这样就既可以获取到原有的参数又可以获取自定义传递的参数
+
+
+
+
+
+## 38-函数的柯里化(多重箭头函数)
+
+#### 描述
+
+- 首先得去了解一下柯里化的概念
+
+- 多个箭头函数就是一种柯里化的表现形式
+
+- 多个箭头函数的意思是函数有多个形参,通过`ES6`的箭头函数拆分成多个
+
+  - 先看简单的例子
+
+    - ```js
+      // 这三个函数的意思是一样的
+      let sum = (a, b) => a + b
+      var sum = function (a) { return function (b) { return a + b; }; }
+      let sum = a => b => a + b
+      alert(sum(1)(2))
+      ```
+  
+- 然后是复杂一些的例子
+  
+  - ```js
+      const pige = (...obj) => input => obj.reduce((acc, val) => val(acc), input)
+      ```
+  
+  - 这个多重箭头函数转换成普通函数的话是这样的
+  
+  - ```js
+      const pige1 = function (...obj) {
+          return function (input) {
+              return obj.reduce((acc, val) => val(acc), input)
+          }
+      }
+      // 
+      ```
+  
+  - 此处 reduce 方法的参数[点击此处查阅](https://www.jianshu.com/p/e375ba1cfc47)
